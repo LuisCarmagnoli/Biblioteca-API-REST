@@ -1,0 +1,374 @@
+[
+  {
+    "ContainingType": "APIBiblioteca.Controllers.AutorController",
+    "Method": "ObtenerTodos",
+    "RelativePath": "api/autor",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[APIBiblioteca.DTO.AutorDTO, APIBiblioteca, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "APIBiblioteca.Controllers.AutorController",
+    "Method": "Crear",
+    "RelativePath": "api/autor",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "autorCreacionDTO",
+        "Type": "APIBiblioteca.DTO.AutorCreacionDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "APIBiblioteca.Controllers.AutorController",
+    "Method": "Obtener",
+    "RelativePath": "api/autor/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "APIBiblioteca.DTO.AutorDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetAutor"
+  },
+  {
+    "ContainingType": "APIBiblioteca.Controllers.AutorController",
+    "Method": "Actualizar",
+    "RelativePath": "api/autor/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "autorCreacionDTO",
+        "Type": "APIBiblioteca.DTO.AutorCreacionDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "APIBiblioteca.Controllers.AutorController",
+    "Method": "Eliminar",
+    "RelativePath": "api/autor/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "APIBiblioteca.Controllers.ComentarioController",
+    "Method": "CrearComentario",
+    "RelativePath": "api/Comentario",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "comentarioDTO",
+        "Type": "APIBiblioteca.DTO.ComentarioDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "APIBiblioteca.Controllers.GeneroController",
+    "Method": "ObtenerTodos",
+    "RelativePath": "api/Genero",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[APIBiblioteca.DTO.GeneroDTO, APIBiblioteca, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "APIBiblioteca.Controllers.GeneroController",
+    "Method": "Crear",
+    "RelativePath": "api/Genero",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "generoCreacionDTO",
+        "Type": "APIBiblioteca.DTO.GeneroCreacionDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "APIBiblioteca.DTO.GeneroDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "APIBiblioteca.Controllers.GeneroController",
+    "Method": "Obtener",
+    "RelativePath": "api/Genero/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "APIBiblioteca.DTO.GeneroDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetGenero"
+  },
+  {
+    "ContainingType": "APIBiblioteca.Controllers.GeneroController",
+    "Method": "Actualizar",
+    "RelativePath": "api/Genero/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "generoCreacionDTO",
+        "Type": "APIBiblioteca.DTO.GeneroCreacionDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "APIBiblioteca.Controllers.GeneroController",
+    "Method": "Eliminar",
+    "RelativePath": "api/Genero/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "APIBiblioteca.Controllers.GeneroController",
+    "Method": "ObtenerGeneroConLibros",
+    "RelativePath": "api/Genero/conLibros",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[APIBiblioteca.DTO.GeneroDTO, APIBiblioteca, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "APIBiblioteca.Controllers.LibroController",
+    "Method": "ObtenerTodos",
+    "RelativePath": "api/Libro",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[APIBiblioteca.DTO.LibroDTO, APIBiblioteca, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "APIBiblioteca.Controllers.LibroController",
+    "Method": "Crear",
+    "RelativePath": "api/Libro",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "libroCreacionDTO",
+        "Type": "APIBiblioteca.DTO.LibroCreacionDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "APIBiblioteca.Controllers.LibroController",
+    "Method": "Obtener",
+    "RelativePath": "api/Libro/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "APIBiblioteca.DTO.LibroDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetLibro"
+  },
+  {
+    "ContainingType": "APIBiblioteca.Controllers.LibroController",
+    "Method": "Actualizar",
+    "RelativePath": "api/Libro/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "libroCreacionDTO",
+        "Type": "APIBiblioteca.DTO.LibroCreacionDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "APIBiblioteca.Controllers.LibroController",
+    "Method": "Eliminar",
+    "RelativePath": "api/Libro/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "APIBiblioteca.Controllers.LibroController",
+    "Method": "ObtenerDataRelacionada",
+    "RelativePath": "api/Libro/dataRelacionada/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "APIBiblioteca.DTO.LibroDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]
